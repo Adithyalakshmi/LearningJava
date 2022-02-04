@@ -16,7 +16,6 @@ public class RemoveVowelFromString {
 	       System.out.print("Enter a String : ");
 	       str1 = scan.nextLine();
 	       str2 = str1.replaceAll("[aeiouAEIOU]", "");
-	       System.out.println("All Vowels Removed Successfully..!!");
 	       System.out.println("New String is : "+str2);
 		
 	}
